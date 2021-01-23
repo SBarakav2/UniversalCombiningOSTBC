@@ -8,7 +8,7 @@ N_t x N_r antennas settings, using the search criterion developed in the article
 The user should call to the function 'execute_and_print_result(n_t, n_r)', as demonstrated in main.py.
 
 Output Example
--------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Run for Nt = 2, Nr = 2
 Number of Iterations: 24
 1 / 24 : 4,  minimum is: 4
