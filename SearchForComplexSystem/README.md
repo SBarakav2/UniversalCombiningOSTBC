@@ -10,10 +10,10 @@ Steps
 -------------------------------------------------------------
 1. Define an STBC, using the following format:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-stbc3 = Block(block_string="x_{1}  & x_{2}  &  x_{3}     & 0  //"
-                           "-x_{2}*  & x_{1}*  & 0       & x_{3}  //"
-                           "-x_{3}*  & 0       & x_{1}*  &  -x_{2}  //"
-                           "0      & -x_{3}* &   -x_{2}* &  x_{1}    ")
+stbc3 = Block(block_string="x_{1}    & x_{2}   &  x_{3}    & 0  //"
+                           "-x_{2}*  & x_{1}*  & 0         & x_{3}  //"
+                           "-x_{3}*  & 0       & x_{1}*    &  -x_{2}  //"
+                           "0        & -x_{3}* &   -x_{2}* &  x_{1}    ")
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 2. Call to 'find_max_rate(stbc, N_t, N_r)' to find the the 'channel conjugate-symmetric reordering transformation' vector ('max_vec') that leads to the maximum rate transmission-combining scheme.
 3. Call to 'print_full_plot(stbc, max_vec) to print the full transmission-combining scheme (including imidiate results that explain how it was constructed).
