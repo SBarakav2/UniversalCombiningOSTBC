@@ -3,7 +3,7 @@ import Functions
 from SearchAmongPermutations import *
 
 
-def execute_and_print_result(n_r, n_t):
+def execute_and_print_result(n_t, n_r):
     text_file = open("searchAmongPermutations_output.txt", "a")
     min_rank, min_p = execute_search_among_permutations(n_t, n_r)
     text_file.write(" ===================================================================== \n")
